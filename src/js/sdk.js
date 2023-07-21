@@ -15,6 +15,7 @@ class IconSDK {
       };
 
       button.addEventListener("click", () => {
+        alert("hi")
         container.classList.toggle("show"); 
       });
   
