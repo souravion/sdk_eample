@@ -19,7 +19,7 @@ class IconSDK {
     });
 
     document.addEventListener("click", handleClickOutside);
-
+    alert('HI')
     this.icons.forEach((icon) => {
       const iconLink = document.createElement("a");
       iconLink.classList.add("icon-link");
