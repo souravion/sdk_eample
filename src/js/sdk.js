@@ -3,6 +3,7 @@ class IconSDK {
     this.icons = icons;
     this.containerId = containerId;
     this.buttonId = buttonId;
+    console.log("this.buttonId", this.buttonId)
   }
 
   init() {
